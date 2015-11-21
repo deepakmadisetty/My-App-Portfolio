@@ -16,84 +16,59 @@
         android:text="@string/title"
         android:id="@+id/title_view"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/button"
         android:text="@string/spotify"
         android:id="@+id/spotify_button"
         android:layout_below="@+id/title_view"
         android:layout_alignEnd="@+id/title_view"
         android:layout_alignStart="@+id/title_view"
-        android:background="#3F51B5"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="2dp"
-        android:onClick="display"/>
+    />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/button"
         android:text="@string/scores"
         android:id="@+id/scores_button"
         android:layout_below="@+id/spotify_button"
         android:layout_alignEnd="@+id/title_view"
-        android:layout_alignStart="@+id/title_view"
-        android:background="#3F51B5"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        android:onClick="display" />
+        android:layout_alignStart="@+id/title_view" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/button"
         android:text="@string/library"
         android:id="@+id/library_button"
         android:layout_below="@+id/scores_button"
         android:layout_alignEnd="@+id/title_view"
         android:layout_alignStart="@+id/title_view"
-        android:background="#3F51B5"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        android:onClick="display" />
+     />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/button"
         android:text="@string/build"
         android:id="@+id/build_button"
         android:layout_below="@+id/library_button"
         android:layout_alignEnd="@+id/title_view"
-        android:layout_alignStart="@+id/title_view"
-        android:background="#3F51B5"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        android:onClick="display" />
+        android:layout_alignStart="@+id/title_view" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/button"
         android:text="@string/xyz"
         android:id="@+id/xyz_button"
         android:background="#3F51B5"
         android:layout_below="@+id/build_button"
         android:layout_alignStart="@+id/build_button"
-        android:layout_alignEnd="@+id/build_button"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        android:onClick="display" />
+        android:layout_alignEnd="@+id/build_button" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/button"
         android:text="@string/capstone"
         android:id="@+id/capstone_button"
         android:layout_below="@+id/xyz_button"
         android:layout_alignEnd="@+id/title_view"
         android:layout_alignStart="@+id/title_view"
-        android:background="#4CAF50"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        android:onClick="display" />
+        android:background="@color/green" />
 
 </RelativeLayout>
